@@ -18,6 +18,7 @@
 		4BBDD11715FEE1E700F2F64E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BBDD0FE15FEE1E700F2F64E /* Foundation.framework */; };
 		4BBDD11F15FEE1E700F2F64E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BBDD11D15FEE1E700F2F64E /* InfoPlist.strings */; };
 		4BBDD12215FEE1E700F2F64E /* Test2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBDD12115FEE1E700F2F64E /* Test2Tests.m */; };
+		4BBDD13115FEE30700F2F64E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBDD13015FEE30700F2F64E /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		4BBDD11E15FEE1E700F2F64E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4BBDD12015FEE1E700F2F64E /* Test2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2Tests.h; sourceTree = "<group>"; };
 		4BBDD12115FEE1E700F2F64E /* Test2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2Tests.m; sourceTree = "<group>"; };
+		4BBDD12F15FEE30700F2F64E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		4BBDD13015FEE30700F2F64E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				4BBDD10B15FEE1E700F2F64E /* AppDelegate.h */,
 				4BBDD10C15FEE1E700F2F64E /* AppDelegate.m */,
 				4BBDD10315FEE1E700F2F64E /* Supporting Files */,
+				4BBDD12F15FEE30700F2F64E /* RootViewController.h */,
+				4BBDD13015FEE30700F2F64E /* RootViewController.m */,
 			);
 			path = Test2;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			files = (
 				4BBDD10915FEE1E700F2F64E /* main.m in Sources */,
 				4BBDD10D15FEE1E700F2F64E /* AppDelegate.m in Sources */,
+				4BBDD13115FEE30700F2F64E /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +424,7 @@
 				4BBDD12715FEE1E700F2F64E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BBDD12815FEE1E700F2F64E /* Build configuration list for PBXNativeTarget "Test2Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				4BBDD12A15FEE1E700F2F64E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
